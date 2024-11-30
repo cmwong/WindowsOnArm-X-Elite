@@ -8,6 +8,7 @@ Developer Tools Setup
 - download from microsoft
 - do not install version 2019
 - not support .net framework 3.5 sdk
+- not support .net core 3.1
 - install component for rust
   - MSVC v143 - VS2022 C++ ARM build tools (Latest) 
   - MSVC v143 - VS2022 C++ ARM64/ARM64EC build tools (Latest)
@@ -41,3 +42,4 @@ cargo install --path . --bin lapce --profile release-lto --locked
 ### Zed
 - tbc
 
+### draw.io V24.7.17 (Arm64)
