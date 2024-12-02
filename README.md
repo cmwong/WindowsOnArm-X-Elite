@@ -10,7 +10,6 @@ Developer Tools Setup
 - not support .net framework 3.5 sdk
 - not support .net core 3.1
 - install component for rust
-  - MSVC v143 - VS2022 C++ ARM build tools (Latest) 
   - MSVC v143 - VS2022 C++ ARM64/ARM64EC build tools (Latest)
   - Windows 11 SDK
   
