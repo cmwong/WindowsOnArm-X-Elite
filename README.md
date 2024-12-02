@@ -29,7 +29,8 @@ Developer Tools Setup
 ### Rust (Arm64)
 - [download](https://www.rust-lang.org/tools/install) RUSTUP-INIT.EXE (64-BIT)
 - run the rustup-init.exe, follow the prompt instruction.
-
+- rustup component add rust-analyzer
+ - vs code, lapce server path: C:\\Users\\_YourUser_\\.cargo\\bin\\rust-analyzer.exe
 ### Lapce (Arm64)
 - clone from [github](https://github.com/lapce/lapce), compile it.
 ```sh
