@@ -43,3 +43,7 @@ cargo install --path . --bin lapce --profile release-lto --locked
 - tbc
 
 ### draw.io V24.7.17 (Arm64)
+
+### mRemoteNG 1.76.20 (x86)
+- [download](https://mremoteng.org)
+  
