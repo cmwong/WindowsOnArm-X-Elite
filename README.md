@@ -1,9 +1,11 @@
 # WindowsOnArm-X-Elite 
 20241130
 ## Asus Vivobook S15 X-Elite
+Snapdragon X Elite - X1E78100
+32 GB Ram
 
-Developer Tools Setup
 
+## Developer Tools Setup
 ### Visual Studio 2022 Community Edition (Arm64)
 - download from microsoft
 - do not install version 2019
@@ -12,6 +14,10 @@ Developer Tools Setup
 - install component for rust
   - MSVC v143 - VS2022 C++ ARM64/ARM64EC build tools (Latest)
   - Windows 11 SDK
+  - MSVC v143 - VS2022 C++ ARM build tools (Latest)
+  - MSVC v143 - VS2022 C++ ARM Spectre-mitigated lib (Latest)
+  - MSVC v143 - VS2022 C++ x64/x86 build tools (Latest)
+  - MSVC v143 - VS2022 C++ x64/x86 Spectre-mitigated libs (Latest)
   
 ### Visual Studio Code (Arm64)
 
@@ -39,6 +45,9 @@ cargo install --path . --bin lapce --profile release-lto --locked
 ### SSMS (x86)
 ### Git (x86)
 
+### CMake (Arm64)
+- [download](https://cmake.org/download/) required by Zed
+
 ### Zed
 - tbc
 
@@ -47,3 +56,4 @@ cargo install --path . --bin lapce --profile release-lto --locked
 ### mRemoteNG 1.76.20 (x86)
 - [download](https://mremoteng.org)
   
+### LibreOffice (Arm64)
