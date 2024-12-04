@@ -13,11 +13,15 @@ Snapdragon X Elite - X1E78100
 - not support .net core 3.1
 - install component for rust
   - MSVC v143 - VS2022 C++ ARM64/ARM64EC build tools (Latest)
+  - MSVC v143 - VS2022 C++ ARM64/ARM64EC Spectre-mitigated lib (Latest)
   - Windows 11 SDK
   - MSVC v143 - VS2022 C++ ARM build tools (Latest)
   - MSVC v143 - VS2022 C++ ARM Spectre-mitigated lib (Latest)
   - MSVC v143 - VS2022 C++ x64/x86 build tools (Latest)
   - MSVC v143 - VS2022 C++ x64/x86 Spectre-mitigated libs (Latest)
+  - C++ Clang Compiler for Windows (15.0.1)
+  - MSBuild support for LLVM (clang-cl) toolset
+  
   
 ### Visual Studio Code (Arm64)
 
@@ -49,7 +53,10 @@ cargo install --path . --bin lapce --profile release-lto --locked
 - [download](https://cmake.org/download/) required by Zed
 
 ### Zed
-- tbc
+- [ring](https://github.com/briansmith/ring/blob/HEAD/BUILDING.md), visual studio 2022 to install the following
+  - C++ Clang Compiler for Windows (15.0.1)
+  - MSBuild support for LLVM (clang-cl) toolset
+- build success, but cargo test failed, cargo run failed 
 
 ### draw.io V24.7.17 (Arm64)
 
