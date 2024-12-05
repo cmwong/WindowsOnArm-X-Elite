@@ -65,3 +65,5 @@ cargo install --path . --bin lapce --profile release-lto --locked
 - [download](https://mremoteng.org)
   
 ### LibreOffice (Arm64)
+### FireFox (Arm64)
+### Chrome (Arm64)
