@@ -24,6 +24,7 @@ Snapdragon X Elite - X1E78100
   
   
 ### Visual Studio Code (Arm64)
+- [Extenstion](vs_code.md)
 
 ### TortoiseSVN 1.14.8 (Arm64)
 - [download](https://tortoisesvn.net/downloads.html)
