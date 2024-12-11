@@ -31,6 +31,16 @@ Snapdragon X Elite - X1E78100
 
 ### WinMerge 2.16.44 (Arm64)
 - [download](https://winmerge.org/downloads/?lang=en)
+```
+c:\\Program Files\\WinMerge\\Filters\\SourceControl.flt 
+## add the following:
+d: \\log$
+d: \\logs$
+d: \\runtimes
+d: \\bin\\Debug$
+d: \\bin\\Release$
+d: \\obj$
+```
 
 ### OpenVPN 2.6.12 (Arm64)
 - [download](https://openvpn.net/community-downloads/)
