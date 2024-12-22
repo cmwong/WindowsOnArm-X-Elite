@@ -4,6 +4,7 @@
 - **Even Better TOML**, tamasfe
 - **Markdown All in One**, Yu Zhang
 - **Markdown Preview Enhanced**, Yiyi Wang
+  - remove keybindings ctrl+b 
 - **Material Icon Theme**, Philipp Kief
 - **REST Client**, Huachao Mao
 - **rust-analyzer**, The Rust Programming Language
