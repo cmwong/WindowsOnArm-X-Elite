@@ -1,10 +1,15 @@
 ## Helix
+[build arm64](helix_build_arm64.md)
 
 ### installation
 ```bash
 winget install Helix.Helix
 # x64
 ```
+
+>!NOTE
+>remove windows terminal key **ctrl-v**
+>conflit with helix split vertical
 
 ### Space Mode
 press `space` key to enter space mode
@@ -21,7 +26,7 @@ F - Open file picker at current working directory
 ### Goto Mode
 press `g` in normal mode
 
-### connfigure typescript lsp
+### configure typescript lsp
 ```bash
 nvm list
 # output
@@ -44,4 +49,10 @@ hx --health typescript
 npm install -g typescript-language-server typescript
 
 # need to install for each of the version of node
+# how to avoid to install typescript lsp for each node version?
 ```
+
+### reference
+[Switching to Helix: My Experience and Tips](https://blog.setale.me/2022/12/27/Switching-to-Helix-My-Experience-and-Tips/)
+
+[Helix: Setup for Markdown](https://medium.com/@CaffeineForCode/helix-setup-for-markdown-b29d9891a812)

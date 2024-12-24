@@ -77,3 +77,4 @@ cargo install --path . --bin lapce --profile release-lto --locked
 ### LibreOffice (Arm64)
 ### FireFox (Arm64)
 ### Chrome (Arm64)
+### [Helix](helix.md)
