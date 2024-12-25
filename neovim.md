@@ -7,7 +7,6 @@
 ```bash
 # install ripgrep, command rg
 winget install BurntSushi.ripgrep.MSVC
-# or winget install 'ripgrep msvc'
 
 winget install Neovim.Neovim
 # neovim is x86
