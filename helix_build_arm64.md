@@ -5,6 +5,7 @@
 [reference](https://github.com/helix-editor/helix/discussions/5490`)
 
 ```bash
+# this is only for build use, the treesitter build will output to this folder
 setx HELIX_RUNTIME "C:\github_project\helix-24.07\runtime"
 # need to restart terminal
 ```
@@ -65,14 +66,15 @@ cargo build --profile opt --locked
 # C:\Users\cmwong\AppData\Local\helix
 
 # run as administrator
-robocopy target\opt "C:\Program Files\helix" hx.exe
+robocopy target\opt\hx.exe "C:\Program Files\helix\hx.exe"
 # do not copy the sources folder
 robocopy runtime "C:\Program Files\helix\runtime" /S /XD sources
 
 ```
 ### delete HELIX_RUNTIME
-Setting -> System -> About -> Advanced system settings
-Environment Variables -> User variables for xx
-Delete HELIX_RUNTIME
-
+```bash
+# Setting -> System -> About -> Advanced system settings
+# Environment Variables -> User variables for xx
+# Delete HELIX_RUNTIME
+```
 

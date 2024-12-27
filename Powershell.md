@@ -4,6 +4,10 @@
 
 [Pretty Powershell](https://github.com/ChrisTitusTech/powershell-profile/blob/main/README.md)
 
+[fzf](https://github.com/junegunn/fzf)
+[ripgrep](https://github.com/BurntSushi/ripgrep)
+[fd](https://github.com/sharkdp/fd)
+
 After installing, missing rg, fzf and fd
 In user PATH, with a 
 C:\Users\cmwong\AppData\Local\Microsoft\WinGet\Links, and it has a zoxide.exe symbolic link
@@ -37,3 +41,10 @@ Get-PoshThemes
 oh-my-posh init pwsh --config 'C:\Users\cmwong\AppData\Local\Programs\oh-my-posh\themes\kali.omp.json' | Invoke-Expression
 ```
 
+### uninstall ripgrep from winget
+```bash
+winget uninstall BurntSushi.ripgrep.MSVC
+
+# install with cargo
+cargo install ripgrep
+```
