@@ -11,6 +11,6 @@
 - **SVN**, Chris Johnston
 - **Turbo Console Log**, Anas Chakroun
 - **Continue**, continue.dev
-  - failed
+  - error activating the continue extension
 - 
 
