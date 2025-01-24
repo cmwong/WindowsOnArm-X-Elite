@@ -31,6 +31,11 @@ STM32F401CC blackpill microcontrollers
 The Cantor keyboard is a 42 key diodeless split keyboard
 https://github.com/diepala/cantor
 
+Kaly
+-- from Cantor, different thumb position
+https://github.com/Dwctor/Kaly
+
+
 Piantor 
 https://github.com/beekeeb/piantor
 
