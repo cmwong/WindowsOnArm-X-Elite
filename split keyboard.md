@@ -59,3 +59,28 @@ https://keymap-drawer.streamlit.app/
 
 keymap editor
 https://nickcoutsos.github.io/keymap-editor/
+
+
+
+### corn keyboard
+Wired Choc low profile Corne keyboard with Choc switches and keycaps
+
+Soldered components:
+1. PCB for both sides (black)
+2. Hotswappable switch sockets x 42
+3. Diodes x 42
+4. Pro micro with NRF52840 with IC sockets x 2
+5. Reset button x 2
+6. TRRS socket x 2
+
+Keyboard components: 
+1. Transparent acrylic sandwich set (bottom, top and MCU plate)
+2. Bolts and spacers for sandwich case assembly
+3. TRRS cable x 1
+4. Kailh Choc red pro switches x 42
+5. Black blank choc keycaps x 42
+
+
+zmk
+keyboard: corne
+mcu board: Nice!Nano v2 clone
