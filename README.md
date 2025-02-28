@@ -42,7 +42,7 @@ d: \\bin\\Release$
 d: \\obj$
 ```
 
-### OpenVPN 2.6.12 (Arm64)
+### OpenVPN 2.5.5 (Arm64)
 - [download](https://openvpn.net/community-downloads/)
 - sophos client not able to run on arm, use OpenVPN client
 
